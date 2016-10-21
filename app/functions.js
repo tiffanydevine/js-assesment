@@ -8,7 +8,9 @@ exports.functionsAnswers = {
   speak: function(fn, obj) {
     let x = fn; 
     let boundFunction = x.bind(obj); 
-    console.log(boundFunction())
+    let a = boundFunction();
+    console.log(a);  
+    return a
   },
 
   functionFunction: function(str) {
