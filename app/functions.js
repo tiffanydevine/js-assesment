@@ -14,7 +14,7 @@ exports.functionsAnswers = {
   },
 
   makeClosures: function(arr, fn) {
-
+    console.log(arr, fn)
   },
 
   partial: function(fn, str1, str2) {
