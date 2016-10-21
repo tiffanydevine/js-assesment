@@ -6,11 +6,7 @@ exports.functionsAnswers = {
   },
 
   speak: function(fn, obj) {
-    let x = fn; 
-    let boundFunction = x.bind(obj); 
-    let a = boundFunction();
-    console.log(a);  
-    return a
+    return (fn.bind(obj))(); 
   },
 
   functionFunction: function(str) {
